@@ -88,12 +88,12 @@ typedef char CHAR;
 #if defined(__arch64__) || defined(__alpha)
 /* 64 bit architectures */
 
-typedef signed char     SBYTE;      /* 1 byte, signed */
-typedef unsigned char   UBYTE;      /* 1 byte, unsigned */
-typedef signed short    SWORD;      /* 2 bytes, signed */
-typedef unsigned short  UWORD;      /* 2 bytes, unsigned */
-typedef signed int      SLONG;      /* 4 bytes, signed */
-typedef unsigned int    ULONG;      /* 4 bytes, unsigned */
+typedef int8_t     SBYTE;      /* 1 byte, signed */
+typedef uint8_t   UBYTE;      /* 1 byte, unsigned */
+typedef int16_t    SWORD;      /* 2 bytes, signed */
+typedef uint16_t  UWORD;      /* 2 bytes, unsigned */
+typedef int32_t      SLONG;      /* 4 bytes, signed */
+typedef uint32_t    ULONG;      /* 4 bytes, unsigned */
 typedef int             BOOL;       /* 0=false, <>0 true */
 
 #else
